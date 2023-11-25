@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Pollution Detection</title>
+</head>
+<style>
+    *{
+        margin : 0;
+        padding : 0;
+        background : #001;
+        color : #fff;
+    }
+    h1{
+        text-align: center;
+		font-size: 100px;
+		text-decoration: underline double;
+		text-decoration-color: yellow;
+		animation: shine 2s linear infinite ;
+    }
+    	@keyframes shine {
+		0%,20%,40%,60%,80%{
+		text-shadow: none;
+		}
+		20.1%,40.1%,60.1%,80.1%,100%{
+		text-shadow: 0 0 1px #fff,
+		             0 0 5px #fff,
+		             0 0 10px #fff,
+		             0 0 15px #fff;
+		}
+	}
+	.input{
+	    border : 2px solid cyan;
+	    border-radius : 10px;
+	    width : 500px;
+	    height : 50px;
+	    display : flex;
+	    justify-content : center;
+	    align-items : center;
+	    text-align : center;
+	    position : absolute;
+	    left : 50%;
+	    top : 50%;
+	    transform : translate(-50%, -50%);
+	}
+	.submit{
+	    border : 1px solid yellow;
+	    border-radius : 10px;
+	    width : 50px;
+	    height : 50px;
+	    position : absolute;
+	    left : calc(50% - 25px);
+	    top : calc(50% + 50px);
+	}
+	.p{
+	    position : absolute;
+	    left : calc(50% - 75px);
+	    top : calc(50% + 150px);
+	}
+	.div{
+	    display : flex;
+	    justify-content : center;
+	    align-items : center;
+	}
+	a{
+	   font-size : 50px;
+	   text-decoration : none;
+	   border-radius : 37px;
+	   border : 7px solid whitesmoke;
+	   margin : 50px;
+	   z-index : 17;
+	   color : orange;
+	   width : 300px;
+	   height : 400px;
+	   display : flex;
+	   justify-content : center;
+	   align-items : center;
+	   text-align : center;
+	   background : black;
+	}
+</style>
+<body>
+    <h1>Pollution Detection Application</h1>
+    <div class="div">
+        <a href="pollution">Pollution Detection Application</a>
+    </div>
+
+</body>
+</html>
